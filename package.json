@@ -1,0 +1,15 @@
+{
+  "name": "fetch-register",
+  "version": "1.0.0",
+  "description": "Fetch just works",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "fetch"
+  ],
+  "author": "Han Lin Yap (http://yap.nu)",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
