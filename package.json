@@ -3,9 +3,9 @@
   "version": "1.0.1",
   "description": "Fetch just works",
   "homepage": "https://github.com/codler/fetch-register",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "tsc index.ts"
+    "build": "tsc index.ts --outDir dist "
   },
   "keywords": [
     "fetch"
