@@ -4,7 +4,9 @@
   "description": "Fetch just works",
   "homepage": "https://github.com/codler/fetch-register",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc index.ts"
+  },
   "keywords": [
     "fetch"
   ],
