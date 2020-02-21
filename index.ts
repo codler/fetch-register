@@ -25,7 +25,7 @@ fetchWrapper.registerDecorator(
   (impl: Function, input: string, init: RequestInit) => {
     init.headers = {
       "user-agent":
-        "fetch-register/1.3.0 (+https://github.com/codler/fetch-register)",
+        "fetch-register/1.3.1 (+https://github.com/codler/fetch-register)",
       ...init.headers
     };
     return [impl, input, init];

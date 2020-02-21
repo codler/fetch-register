@@ -4,8 +4,13 @@
   "description": "Fetch just works",
   "homepage": "https://github.com/codler/fetch-register",
   "main": "dist/index.js",
+  "funding": {
+    "type": "individual",
+    "url": "http://yap.nu"
+  },
   "scripts": {
-    "build": "tsc index.ts --outDir dist "
+    "build": "tsc index.ts --outDir dist",
+    "test": "ts-node test.ts"
   },
   "keywords": [
     "fetch"
@@ -14,5 +19,9 @@
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
   }
 }
