@@ -1,6 +1,6 @@
 {
   "name": "fetch-register",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Fetch just works",
   "homepage": "https://github.com/codler/fetch-register",
   "main": "dist/index.js",
